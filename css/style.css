@@ -380,9 +380,9 @@ footer{
 
 /*Responsiv tilpasning*/
 
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 769px){
 	main{
-		width: 100% !important;
+		width: 90% !important;
 	}
 	body{
 		margin: 0;
@@ -390,4 +390,45 @@ footer{
 	header{
 		margin-bottom: 0;
 	}
+
+    .Logo{
+        margin: 0px;
+    }
+
+     .logo-2{
+        font-size: 1.5em;
+        }
+
+    nav ul{
+    margin-left: 0px;
+}
+
+nav{
+max-width: fit-content;
+}
+
+
+.section1{
+    flex-direction: column-reverse;
+}
+.forsidebund{
+    flex-direction: column;
+}
+
+.billede2{
+    width: 70%;
+}
+
+.kontaktform {
+    margin: 5%;
+    width: 70%;
+}
+
+.div1, .div2, .div3, .div4{
+    margin: 0.5%;
+    border-radius: 15px;
+    width: 50%;
+    padding: 2%;
+}
+
 }
