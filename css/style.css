@@ -1,0 +1,393 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    background-color:rgb(203, 217, 236);
+    margin: 0 0 5em 0; /*Resetting af margin i hele bodyen + tilføjer luft under kontaktformular*/
+}
+
+
+/*Min header*/
+header{
+    background-color: lightsteelblue;
+    height: 100px;
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-2{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: rgb(33, 49, 71);
+    text-decoration: none;
+}
+
+.logo-2:hover{
+    color: #DD7824;
+	transition: 0.5s; 
+}
+
+h1{
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: lightsteelblue;
+    margin:30px 0px 30px 0px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(33, 49, 71);
+}
+
+/*Logo*/
+.Logo{
+    width: 170px;
+    height: auto;
+    margin-right: 220px;
+    border-radius: 60%;
+}
+
+/*om os + kontakt i min header*/
+header a{
+    font-size: 20px;
+    color: rgb(33, 49, 71)
+}
+
+
+nav li{
+    display: inline-block;
+    margin-left: 5.5em;
+}
+
+nav ul{
+    margin-left: 200px;
+}
+
+/*Hovedeindhold*/
+/*Første afsnit, tekst + billede*/
+
+.section1{
+    padding: 50px;
+    text-align: center;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-around;
+}
+
+main section h2{
+    font-size: 1.5rem;
+    background-color: lightsteelblue;
+    margin-bottom: 30px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(33, 49, 71);
+}
+
+.forsideimg{
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 7.5%;
+}
+
+/*teksten*/
+.section1 p{
+    font-size: 1.4rem;
+    color: rgb(33, 49, 71);
+    line-height: 1.5;
+    text-align: left;
+    max-width: 700px;
+    padding: 1%;
+    margin-top: 10%;
+}
+
+/*tryghed, håb og handlekraft*/
+
+.forsidebund{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+    gap: 10%;
+}
+
+h3{
+   font-size: 1.5rem;
+    background-color: lightsteelblue;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(33, 49, 71); 
+}
+
+.tekstimidten{
+    font-size: 1.4rem;
+    color: rgb(33, 49, 71);
+    line-height: 1.5;
+}
+
+.p1{
+    margin-top: 10%;
+    padding: 0.1%;
+}
+
+.billede2{
+     width: 35%;
+    height: 45%;
+    margin-top: 7%;
+    border-radius: 20px;
+}
+
+.section2{
+    margin: 0 50px;
+}
+
+
+
+/*tredje afsnit*/
+
+.h4-1{
+font-size: 1.5rem;
+text-align: center;
+margin-bottom: 1em;
+padding-bottom: 0.5em;
+border-bottom: solid;
+}
+
+
+.div-1og2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+.div-3og4{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+.div1, .div2, .div3, .div4{
+    background-color: lightsteelblue;
+    margin: 0.5%;
+    border-radius: 15px;
+    width: 28%;
+    padding: 2%;
+    border-style: solid;
+}
+
+.p-1{
+    margin-bottom: 5%;
+}
+
+/*Knap*/
+
+.knap{
+    background-color:#ff8827;
+    padding: 2%;
+    margin: 5%;
+    text-decoration: none;
+    border-radius: 4px;
+    color: white;
+}
+
+.knap:hover{
+    background-color: #DD7824;
+	transition: 0.5s; 
+}
+
+
+
+/*Indhold på underside*/
+
+.tekstmidten2{
+    font-size: 1.6rem;
+    color: rgb(33, 49, 71);
+    line-height: 1.5;
+}
+
+.undersidetop{
+display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    margin-top: 5%;
+}
+
+.up1{
+    margin-top: 5%;
+    padding: 1.2%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5%;
+}
+
+.knapcontainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+}
+
+
+.knap-2-aktiv{
+    background-color:#DD7824;
+    padding: 1% 4% 1% 4%;
+    text-decoration: none;
+    border-radius: 4px;
+    color: white;
+    font-size: x-large;
+}
+
+.knap-2{
+    background-color:#ff8827;
+    padding: 1% 4% 1% 4%;
+    text-decoration: none;
+    border-radius: 4px;
+    color: white;
+    font-size: x-large;
+}
+
+.knap-2:hover{
+    background-color: #DD7824;
+	transition: 0.5s; 
+}
+
+.råd{
+    margin: 2em;
+}
+
+.råd-tekst{
+    background-color: rgb(203, 217, 236);
+    text-align: left;
+    font-size: 1.7rem;
+}
+
+
+/*Kontaktform*/
+
+.kontaktform {
+  border-radius: 5px;
+  background-color: lightsteelblue;
+  padding: 1.3em;
+  width: 50%;
+  margin: 0 auto; /*Centrerer elementet på siden*/
+  margin-top: 5%;
+}
+
+main{
+    padding: 0 2em 2em;
+}
+
+nav a:hover{
+	color: #DD7824;
+	transition: 0.5s; /*skaber en mere blød overgang mellem linkfarverne*/
+}
+
+h2{
+    color: rgb(33, 49, 71);
+   font-size: 2.7rem;
+   margin-bottom: 5%;
+   margin-top: 5%;
+}
+
+.kontakt-tekst{ /*Skriv til os via kontaktformularen og så vender vi tilbage til dig*/
+	font-weight: 200;
+	font-size: 20px;
+	margin-bottom: 7%;
+}
+
+input[type=text], input[type=email], [type=tel], select, textarea{
+	width: 100%;
+	padding: 1em;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+}
+
+select, input[type=checkbox], input[type=radio], input[type=submit]{
+	cursor: pointer;
+}
+
+fieldset{
+	border-color: #DD7824;
+	border-style: dotted;
+	margin-bottom: 1em;
+}
+
+
+input[type=submit]{
+	background-color: #DD7824;
+	color: rgb(255, 255, 255);
+	padding: 0.8em 1.5em;
+	border: 0;
+	border-radius: 4px;
+	width: 100%;
+	font-size: 18px;
+}
+
+input[type=submit]:hover{
+	background-color: #ff8827;
+}
+
+::placeholder{
+	color: rgb(94, 94, 94);
+	font-size: 1rem;
+}
+
+/*Andre style elementer*/
+
+.visually-hidden{ /*WCAG defineret class som fjerner element fra skærm, men som stadig kan læses af skærmlæseren*/
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+
+/*Bunden af min side*/
+footer{
+    background-color: lightsteelblue;
+    padding: 10px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 10%;
+    margin-bottom: -10%;
+}
+
+.kontakt{
+    
+    line-height: 1.5%;
+    font-size: 2.5rem;
+}
+
+
+
+
+
+/*Responsiv tilpasning*/
+
+@media only screen and (max-width: 850px){
+	main{
+		width: 100% !important;
+	}
+	body{
+		margin: 0;
+	}
+	header{
+		margin-bottom: 0;
+	}
+}
